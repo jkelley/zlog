@@ -11,6 +11,9 @@ install:
 $(TARGETS):
 	cd src && $(MAKE) $@
 
+static:
+	cd src && $(MAKE) $@
+
 doc:
 	cd doc && $(MAKE)
 
